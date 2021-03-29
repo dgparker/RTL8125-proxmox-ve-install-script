@@ -4,7 +4,7 @@ This script addresses issues for adding driver support for the RTL8125 NIC speci
 
 There are several methods to add support for this NIC scattered across forums. This script makes use of the deb pkg approach as with my experience produced the most consistent results.
 
-My use case involved installing proxmox on several homelab servers so manually doing this on each one was really not a viable option.
+My use case involved installing proxmox on several homelab servers so manually doing this on each one was really not a viable option. (please excuse my terrible bash :( )
 
 ## Installation instructions
 
