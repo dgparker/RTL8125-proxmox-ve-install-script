@@ -29,3 +29,7 @@ For post installation repeat steps 5-8 once you've logged into the server. After
 ## Gotchas
 
 During the installation process after you run the script and are back in the GUI be sure to select the right NIC. If you goofed this up like I did in the first run you'll need to edit `/etc/network/interfaces` once booted into proxmox and set the appropriate nic after the script runs for `vmbr0` 
+
+## Credit
+
+Big thanks to the users in this proxmox [thread](https://forum.proxmox.com/threads/no-network-interface-found-for-rtl8125b.72378/) that had a very thorough step by step process on how to get this going.
